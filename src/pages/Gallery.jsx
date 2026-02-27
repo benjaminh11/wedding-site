@@ -1,10 +1,7 @@
 import { useState } from 'react';
 import './Gallery.css';
 
-const photos = Array.from({ length: 213 }, (_, i) => ({
-  id: i + 1,
-  src: new URL(`../assets/gallery/Taylor&AJ-${i + 1}.png`, import.meta.url).href,
-}));
+const photos = [];
 
 function Gallery() {
   const [selectedPhoto, setSelectedPhoto] = useState(null);
@@ -58,7 +55,6 @@ function Gallery() {
         )}
       </div>
 
-      {/* Lightbox */}
       {selectedPhoto && (
         <div className="lightbox" onClick={closePhoto}>
           <button className="lightbox-close" onClick={closePhoto}>✕</button>
