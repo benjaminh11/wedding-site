@@ -1,6 +1,6 @@
 import './RSVP.css';
 
-const WELCOME_DINNER_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSckf_paff32Y4ktYKAiiv2j_pIQeM0JMrorPxbEOJLDqiGPKg/viewform?usp=header';
+const WELCOME_DINNER_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSfvy5RrLQRdJqI4LAvWCzK1gKcaIkF4Z0S0FxissOVpVddGXg/viewform';
 const CEREMONY_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSd6ebtXpHBbmdEkX11v9IU1BetKiVxub9GOOdESjDb-vOPkJg/viewform';
 const GOODBYE_BRUNCH_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSckf_paff32Y4ktYKAiiv2j_pIQeM0JMrorPxbEOJLDqiGPKg/viewform';
 
