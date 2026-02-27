@@ -1,0 +1,143 @@
+.travel-hero {
+  width: 100%;
+  height: 400px;
+  background-image: url('../assets/travel-hero.jpg');
+  background-color: var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.travel-hero-overlay {
+  text-align: center;
+  padding: 20px;
+}
+
+.travel-hero-overlay h1 {
+  font-size: 3.5rem;
+  color: var(--color-text);
+}
+
+.travel-hero-overlay p {
+  font-size: 1rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-text-light);
+  margin-top: 10px;
+}
+
+.travel-content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.travel-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.travel-section-intro {
+  color: var(--color-text-light);
+  font-size: 1rem;
+  margin-bottom: 25px;
+}
+
+.travel-card {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.travel-card h3 {
+  font-size: 1.4rem;
+  color: var(--color-text);
+}
+
+.travel-card p {
+  color: var(--color-text-light);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.travel-link {
+  font-size: 0.85rem;
+  color: var(--color-primary);
+  letter-spacing: 0.05em;
+  transition: color 0.2s;
+  align-self: flex-start;
+}
+
+.travel-link:hover {
+  color: var(--color-accent);
+}
+
+.hotel-card {
+  border-color: var(--color-primary);
+  background-color: var(--color-background);
+}
+
+.travel-button {
+  display: inline-block;
+  align-self: flex-start;
+  padding: 12px 30px;
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  border-radius: 4px;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: background-color 0.2s;
+  margin-top: 5px;
+}
+
+.travel-button:hover {
+  background-color: var(--color-primary);
+}
+
+.travel-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.travel-grid .travel-card {
+  margin-bottom: 0;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .travel-hero {
+    height: 300px;
+  }
+
+  .travel-hero-overlay h1 {
+    font-size: 2.5rem;
+  }
+
+  .travel-hero-overlay p {
+    font-size: 0.85rem;
+  }
+
+  .travel-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .travel-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .travel-button {
+    width: 100%;
+    text-align: center;
+  }
+}

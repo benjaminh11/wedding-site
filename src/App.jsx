@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Events from './pages/Events';
 import RSVP from './pages/RSVP';
+import Travel from './pages/Travel';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/events" element={<Events />} />
         <Route path="/rsvp" element={<RSVP />} />
+        <Route path="/travel" element={<Travel />} />
       </Routes>
     </BrowserRouter>
   );
