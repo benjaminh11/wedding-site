@@ -1,0 +1,27 @@
+.footer {
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 1px solid var(--color-border);
+  background-color: var(--color-white);
+  margin-top: 60px;
+}
+
+.footer p {
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-light);
+}
+
+.footer-credit {
+  margin-top: 8px;
+  font-size: 0.75rem !important;
+  color: var(--color-border) !important;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .footer {
+    padding: 30px 20px;
+  }
+}

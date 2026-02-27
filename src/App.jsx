@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import Events from './pages/Events';
 import RSVP from './pages/RSVP';
@@ -19,6 +20,7 @@ function App() {
         <Route path="/wedding-party" element={<WeddingParty />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
