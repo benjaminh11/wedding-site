@@ -1,0 +1,119 @@
+.wedding-party-hero {
+  width: 100%;
+  height: 400px;
+  background-color: var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.wedding-party-hero-overlay {
+  text-align: center;
+  padding: 20px;
+}
+
+.wedding-party-hero-overlay h1 {
+  font-size: 3.5rem;
+  color: var(--color-text);
+}
+
+.wedding-party-hero-overlay p {
+  font-size: 1rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-text-light);
+  margin-top: 10px;
+}
+
+.wedding-party-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.member-card {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.member-photo {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.member-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.member-photo-placeholder {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.member-photo-placeholder span {
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-light);
+}
+
+.member-info {
+  padding: 25px 30px;
+}
+
+.member-info h2 {
+  font-size: 1.6rem;
+  margin-bottom: 5px;
+}
+
+.member-role {
+  font-size: 0.8rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 15px;
+}
+
+.member-bio {
+  font-size: 0.95rem;
+  color: var(--color-text-light);
+  line-height: 1.7;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .wedding-party-hero {
+    height: 300px;
+  }
+
+  .wedding-party-hero-overlay h1 {
+    font-size: 2.5rem;
+  }
+
+  .wedding-party-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .member-photo {
+    height: 250px;
+  }
+
+  .member-info {
+    padding: 20px;
+  }
+
+  .member-info h2 {
+    font-size: 1.4rem;
+  }
+}
