@@ -23,9 +23,7 @@ function Home() {
       <section className="story-section container">
         <h2>Our Story</h2>
         <p>
-          This is where Taylor and A.J.'s story goes. Update this with however
-          you'd like to tell it — how you met, a favorite memory, what makes
-          your relationship special.
+          Story
         </p>
       </section>
 
