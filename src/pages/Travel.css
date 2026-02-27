@@ -1,7 +1,7 @@
 .travel-hero {
   width: 100%;
   height: 400px;
-  background-image: url('../assets/travel-hero.jpg');
+  background-image: url('../assets/travel-hero.png');
   background-color: var(--color-border);
   display: flex;
   align-items: center;
