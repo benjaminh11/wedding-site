@@ -1,0 +1,18 @@
+:root {
+  /* Colors */
+  --color-background: #f9f5f0;
+  --color-primary: #7c9a7e;
+  --color-accent: #c17f5a;
+  --color-text: #4a3f35;
+  --color-text-light: #7a6e65;
+  --color-border: #e0d5c8;
+  --color-white: #ffffff;
+
+  /* Fonts */
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-body: 'Jost', sans-serif;
+
+  /* Spacing */
+  --max-width: 1100px;
+  --section-padding: 80px 20px;
+}
