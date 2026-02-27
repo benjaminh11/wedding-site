@@ -12,6 +12,7 @@
 
 .hero-overlay {
   text-align: center;
+  padding: 20px;
 }
 
 .hero h1 {
@@ -44,3 +45,25 @@
   font-size: 1.05rem;
 }
 
+/* Mobile */
+@media (max-width: 768px) {
+  .hero {
+    height: 350px;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-date {
+    font-size: 0.85rem;
+  }
+
+  .story-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .story-section p {
+    font-size: 0.95rem;
+  }
+}

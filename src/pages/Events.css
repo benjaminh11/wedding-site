@@ -1,0 +1,132 @@
+.events-hero {
+  width: 100%;
+  height: 400px;
+  background-image: url('../assets/events-hero.jpg');
+  background-color: var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.events-hero-overlay {
+  text-align: center;
+  padding: 20px;
+}
+
+.events-hero-overlay h1 {
+  font-size: 3.5rem;
+  color: var(--color-text);
+}
+
+.events-hero-overlay p {
+  font-size: 1rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-text-light);
+  margin-top: 10px;
+}
+
+.events-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.event-card {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+}
+
+.event-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 70px;
+  padding-top: 5px;
+}
+
+.event-month {
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-text-light);
+}
+
+.event-day {
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  color: var(--color-accent);
+  line-height: 1;
+}
+
+.event-details h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.event-meta {
+  font-size: 0.9rem;
+  color: var(--color-text-light);
+  margin-bottom: 5px;
+}
+
+.event-directions {
+  display: inline-block;
+  margin: 10px 0;
+  font-size: 0.85rem;
+  color: var(--color-primary);
+  letter-spacing: 0.05em;
+  transition: color 0.2s;
+}
+
+.event-directions:hover {
+  color: var(--color-accent);
+}
+
+.event-description {
+  margin-top: 10px;
+  color: var(--color-text-light);
+  font-size: 0.95rem;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .events-hero {
+    height: 300px;
+  }
+
+  .events-hero-overlay h1 {
+    font-size: 2.5rem;
+  }
+
+  .events-hero-overlay p {
+    font-size: 0.85rem;
+  }
+
+  .event-card {
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+  }
+
+  .event-date {
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .event-day {
+    font-size: 2rem;
+  }
+
+  .event-details h2 {
+    font-size: 1.4rem;
+  }
+}

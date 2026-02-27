@@ -39,4 +39,27 @@
   text-transform: uppercase;
   color: var(--color-text-light);
   margin-top: 8px;
-};
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .countdown {
+    padding: 40px 20px;
+  }
+
+  .countdown-label {
+    font-size: 1rem;
+  }
+
+  .countdown-grid {
+    gap: 20px;
+  }
+
+  .countdown-number {
+    font-size: 2.5rem;
+  }
+
+  .countdown-unit {
+    font-size: 0.65rem;
+  }
+}
