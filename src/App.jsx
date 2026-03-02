@@ -7,6 +7,7 @@ import RSVP from './pages/RSVP';
 import Travel from './pages/Travel';
 import WeddingParty from './pages/WeddingParty';
 import Gallery from './pages/Gallery';
+import FAQ from './pages/FAQ';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/travel" element={<Travel />} />
         <Route path="/wedding-party" element={<WeddingParty />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/faq" element={<FAQ />} />
       </Routes>
       <Footer />
     </BrowserRouter>

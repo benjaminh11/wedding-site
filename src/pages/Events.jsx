@@ -21,7 +21,7 @@ function Events() {
           <div className="event-details">
             <h2>Welcome Dinner</h2>
             <p className="event-meta">Friday, September 25, 2026</p>
-            <p className="event-meta">Time: TBD</p>
+            <p className="event-meta">Time: 8 P.M.</p>
             <p className="event-meta">Location: TBD</p>
             <p className="event-description">Kick off the wedding weekend with a welcome dinner. More details coming soon!</p>
           </div>
@@ -50,7 +50,7 @@ function Events() {
           <div className="event-details">
             <h2>Goodbye Brunch</h2>
             <p className="event-meta">Sunday, September 27, 2026</p>
-            <p className="event-meta">Time: TBD</p>
+            <p className="event-meta">Time: 10AM</p>
             <p className="event-meta">21 Rosewood Ave</p>
             <a className="event-directions" href="https://maps.google.com/?q=21+Rosewood+Ave" target="_blank" rel="noreferrer">Get Directions</a>
             <p className="event-description">Send off the newlyweds with a relaxed goodbye brunch before heading home.</p>
