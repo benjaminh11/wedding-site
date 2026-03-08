@@ -8,6 +8,7 @@ import Travel from './pages/Travel';
 import WeddingParty from './pages/WeddingParty';
 import Gallery from './pages/Gallery';
 import FAQ from './pages/FAQ';
+import Registry from './pages/Registry';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/wedding-party" element={<WeddingParty />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/faq" element={<FAQ />} />
+        <Route path="/registry" element={<Registry />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -1,6 +1,6 @@
 import './RSVP.css';
 
-const WELCOME_DINNER_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSfvy5RrLQRdJqI4LAvWCzK1gKcaIkF4Z0S0FxissOVpVddGXg/viewform';
+const WELCOME_PARTY_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSfvy5RrLQRdJqI4LAvWCzK1gKcaIkF4Z0S0FxissOVpVddGXg/viewform';
 const CEREMONY_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSd6ebtXpHBbmdEkX11v9IU1BetKiVxub9GOOdESjDb-vOPkJg/viewform';
 const GOODBYE_BRUNCH_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSckf_paff32Y4ktYKAiiv2j_pIQeM0JMrorPxbEOJLDqiGPKg/viewform';
 
@@ -9,7 +9,7 @@ function RSVP() {
     <div className="rsvp">
 
       {/* Hero Section */}
-      {/* TODO: Add rsvp-hero.jpg to src/assets/ to replace the placeholder */}
+      {/* TODO: Add rsvp-hero.png to src/assets/ to replace the placeholder */}
       <section className="rsvp-hero">
         <div className="rsvp-hero-overlay">
           <h1>RSVP</h1>
@@ -28,12 +28,12 @@ function RSVP() {
           <div className="rsvp-card-header">
             <span className="rsvp-card-date">Friday, September 25</span>
             <h2>Welcome Party</h2>
-            <p className="rsvp-card-meta">Location: Narragansett Brewery · Time: 7:30</p>
+            <p className="rsvp-card-meta">Location: Narragansett Brewery · Time: 7:30 PM</p>
           </div>
           <div className="rsvp-card-body">
             <p>Kick off the wedding weekend with drinks, snacks, and trivia at Narragansett Brewery. Click below to RSVP.</p>
-            <a href={WELCOME_DINNER_FORM} target="_blank" rel="noreferrer" className="rsvp-button">
-              RSVP for Welcome Dinner
+            <a href={WELCOME_PARTY_FORM} target="_blank" rel="noreferrer" className="rsvp-button">
+              RSVP for Welcome Party
             </a>
           </div>
         </div>
@@ -58,7 +58,7 @@ function RSVP() {
           <div className="rsvp-card-header">
             <span className="rsvp-card-date">Sunday, September 27</span>
             <h2>Goodbye Brunch</h2>
-            <p className="rsvp-card-meta">21 Rosewood Ave, Narragansett, RI, 02882· Time: 10AM</p>
+            <p className="rsvp-card-meta">21 Rosewood Ave, Narragansett, RI 02882 · Time: 10AM</p>
           </div>
           <div className="rsvp-card-body">
             <p>Send off the newlyweds with a relaxed goodbye brunch. Click below to RSVP.</p>

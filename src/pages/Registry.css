@@ -1,0 +1,113 @@
+.registry-hero {
+  width: 100%;
+  height: 400px;
+  background-color: var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.registry-hero-overlay {
+  text-align: center;
+  padding: 20px;
+}
+
+.registry-hero-overlay h1 {
+  font-size: 3.5rem;
+  color: var(--color-text);
+}
+
+.registry-hero-overlay p {
+  font-size: 1rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-text-light);
+  margin-top: 10px;
+}
+
+.registry-content {
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.registry-message {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.registry-message h2 {
+  font-size: 2.5rem;
+  color: var(--color-text);
+}
+
+.registry-divider {
+  width: 60px;
+  height: 1px;
+  background-color: var(--color-accent);
+  margin: 0 auto;
+}
+
+.registry-message p {
+  font-size: 1rem;
+  color: var(--color-text-light);
+  line-height: 1.9;
+}
+
+.registry-signature {
+  font-family: var(--font-heading);
+  font-size: 1.5rem !important;
+  color: var(--color-text) !important;
+  margin-top: 10px;
+}
+
+.registry-button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.registry-button {
+  display: inline-block;
+  padding: 15px 50px;
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  border-radius: 4px;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  transition: background-color 0.2s;
+}
+
+.registry-button:hover {
+  background-color: var(--color-primary);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .registry-hero {
+    height: 300px;
+  }
+
+  .registry-hero-overlay h1 {
+    font-size: 2.5rem;
+  }
+
+  .registry-message h2 {
+    font-size: 1.8rem;
+  }
+
+  .registry-message p {
+    font-size: 0.95rem;
+  }
+
+  .registry-button {
+    width: 100%;
+    text-align: center;
+  }
+}

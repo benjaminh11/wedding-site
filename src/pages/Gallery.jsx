@@ -1,7 +1,10 @@
 import { useState } from 'react';
 import './Gallery.css';
 
-const photos = [];
+const photos = Array.from({ length: 21 }, (_, i) => ({
+  id: i + 1,
+  src: new URL(`../assets/gallery/gallery-${String(i + 1).padStart(2, '0')}.JPG`, import.meta.url).href,
+}));
 
 function Gallery() {
   const [selectedPhoto, setSelectedPhoto] = useState(null);
@@ -37,22 +40,22 @@ function Gallery() {
       </section>
 
       <div className="gallery-grid container">
-        {photos.length === 0 ? (
-          <p className="gallery-empty">Photos coming soon!</p>
-        ) : (
-          photos.map((photo) => (
-            <div
-              className="gallery-item"
-              key={photo.id}
-              onClick={() => openPhoto(photo)}
-            >
-              <img src={photo.src} alt={`Gallery photo ${photo.id}`} loading="lazy" />
-              <div className="gallery-item-overlay">
-                <span>View</span>
-              </div>
+        {photos.map((photo) => (
+          <div
+            className="gallery-item"
+            key={photo.id}
+            onClick={() => openPhoto(photo)}
+          >
+            <img
+              src={photo.src}
+              alt={`Taylor and AJ photo ${photo.id}`}
+              loading="lazy"
+            />
+            <div className="gallery-item-overlay">
+              <span>View</span>
             </div>
-          ))
-        )}
+          </div>
+        ))}
       </div>
 
       {selectedPhoto && (
