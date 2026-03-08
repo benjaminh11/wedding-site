@@ -58,7 +58,7 @@ function WeddingParty() {
       <section className="wedding-party-hero">
         <div className="wedding-party-hero-overlay">
           <h1>Wedding Party</h1>
-          <p>Some of our favorite people:</p>
+          <p>Some of our favorite people</p>
         </div>
       </section>
 

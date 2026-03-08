@@ -7,7 +7,7 @@ const faqs = [
   },
   {
     question: "Is there parking?",
-    answer: "For the welcome party, there is parking at the (TBD). For the wedding, there is ample parking around the library, including both street parking and parking garages. For the goodbye brunch, we recommend you park in the restaurant parking lot located at the top of the street.",
+    answer: "For the welcome party, there is parking at the Narragansett Brewery. For the wedding, there is ample parking around the library, including both street parking and parking garages. For the goodbye brunch, we recommend you park in the restaurant parking lot located at the top of the street.",
   },
   {
     question: "Are kids invited?",

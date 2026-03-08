@@ -23,15 +23,15 @@ function RSVP() {
 
       <div className="rsvp-forms container">
 
-        {/* Welcome Dinner */}
+        {/* Welcome Party */}
         <div className="rsvp-card">
           <div className="rsvp-card-header">
             <span className="rsvp-card-date">Friday, September 25</span>
-            <h2>Welcome Dinner</h2>
-            <p className="rsvp-card-meta">Location: TBD · Time: TBD</p>
+            <h2>Welcome Party</h2>
+            <p className="rsvp-card-meta">Location: Narragansett Brewery · Time: 7:30</p>
           </div>
           <div className="rsvp-card-body">
-            <p>Kick off the wedding weekend with a welcome dinner. Click below to RSVP.</p>
+            <p>Kick off the wedding weekend with drinks, snacks, and trivia at Narragansett Brewery. Click below to RSVP.</p>
             <a href={WELCOME_DINNER_FORM} target="_blank" rel="noreferrer" className="rsvp-button">
               RSVP for Welcome Dinner
             </a>
@@ -58,7 +58,7 @@ function RSVP() {
           <div className="rsvp-card-header">
             <span className="rsvp-card-date">Sunday, September 27</span>
             <h2>Goodbye Brunch</h2>
-            <p className="rsvp-card-meta">21 Rosewood Ave · Time: TBD</p>
+            <p className="rsvp-card-meta">21 Rosewood Ave, Narragansett, RI, 02882· Time: 10AM</p>
           </div>
           <div className="rsvp-card-body">
             <p>Send off the newlyweds with a relaxed goodbye brunch. Click below to RSVP.</p>
