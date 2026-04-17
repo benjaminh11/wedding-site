@@ -20,6 +20,7 @@
 .hero h1 {
   font-size: 4rem;
   color: var(--color-white);
+  font-family: var(--font-script);
   letter-spacing: 0.08em;
 }
 
@@ -27,7 +28,7 @@
   font-size: 1rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--color-gold);
+  color: var(--color-white);
   margin-top: 15px;
 }
 

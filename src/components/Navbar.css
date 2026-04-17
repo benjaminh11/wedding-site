@@ -11,7 +11,7 @@
 }
 
 .navbar-brand a {
-  font-family: var(--font-heading);
+  font-family: var(--font-script);
   font-size: 1.5rem;
   color: var(--color-wine);
   letter-spacing: 0.08em;
