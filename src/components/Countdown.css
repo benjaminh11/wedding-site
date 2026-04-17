@@ -1,7 +1,7 @@
 .countdown {
   text-align: center;
   padding: 60px 20px;
-  background-color: var(--color-white);
+  background-color: var(--color-wine);
   border-top: 1px solid var(--color-border);
   border-bottom: 1px solid var(--color-border);
 }
@@ -9,9 +9,9 @@
 .countdown-label {
   font-family: var(--font-heading);
   font-size: 1.3rem;
-  color: var(--color-text-light);
+  color: var(--color-white);
   margin-bottom: 30px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
 }
 
 .countdown-grid {
@@ -29,7 +29,7 @@
 .countdown-number {
   font-family: var(--font-heading);
   font-size: 3.5rem;
-  color: var(--color-accent);
+  color: var(--color-gold);
   line-height: 1;
 }
 
@@ -37,7 +37,7 @@
   font-size: 0.75rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--color-text-light);
+  color: var(--color-white);
   margin-top: 8px;
 }
 

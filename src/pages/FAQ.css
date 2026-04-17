@@ -12,19 +12,20 @@
 
 .faq-hero-overlay {
   text-align: center;
-  padding: 20px;
+  padding: 30px 40px;
+  background-color: rgba(44, 24, 16, 0.55);
 }
 
 .faq-hero-overlay h1 {
   font-size: 3.5rem;
-  color: var(--color-text);
+  color: var(--color-white);
 }
 
 .faq-hero-overlay p {
   font-size: 1rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--color-text-light);
+  color: var(--color-gold);
   margin-top: 10px;
 }
 
