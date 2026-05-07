@@ -8,7 +8,7 @@ const weddingParty = [
     photoPosition: 'center 40%',
     photoScale: '1',
     photoHeight: '300px',
-    bio: 'I met Taylor during our first day of college. However, it may be more accurate to say that Taylor met me, when she walked through the door adjoining their dorm rooms and introduced herself. Quickly we became roommates, but more importantly, we became very close friends. Taylor introduced AJ to me as her "friend", but it soon became clear that there was a significant connection between them, as Taylor and AJ shared similar interests and enjoyed each other\'s company. I am honored to be a co-maid of honor and so excited to celebrate Taylor and AJ.',
+    bio: 'I met Taylor during our first day of college. However, it may be more accurate to say that Taylor met me, when she walked through the door adjoining our dorm rooms and introduced herself. Quickly we became roommates, but more importantly, we became very close friends. Taylor introduced AJ to me as her "friend", but it soon became clear that there was a significant connection between them, as Taylor and AJ shared similar interests and enjoyed each other\'s company. I am honored to be a co-maid of honor and so excited to celebrate Taylor and AJ.',
   },
   {
     name: 'Lauren Marley',
